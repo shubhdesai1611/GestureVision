@@ -19,7 +19,7 @@ To recreate the 2D CNN model that has been used for this tool:<br>
 
 ![Sign To Continue](./NextSign.jpg "Next Sign which allows to take next input")
 
-<br>For prediction of the character, signs to be used can be found in asl_dataset folder in main folder. Inside asl_dataset, folders 0 to 25 contains sign for A to Z, folder 26 is for taking next frame, 27 is for space, 28 is for taking current word suggestion, 29 is for taking next word suggestion, 30 is for backspacing in current word and 31 is for converting text to speech. After prediction of each character, user is needed to provide sign that allows for taking next input, sign shown above. It makes th model ready to take next character as input. If this is not provided then user won't be able to provide any sign.<br>
+<br>For prediction of the character, signs to be used can be found in asl_dataset folder in main folder. Inside asl_dataset, folders 0 to 25 contains sign for A to Z, folder 26 is for taking next frame, 27 is for space, 28 is for taking current word suggestion, 29 is for taking next word suggestion, 30 is for backspacing in current word and 31 is for converting text to speech. After prediction of each character, user is needed to provide sign that allows for taking next input, sign shown above. It makes the model ready to take next character as input. If this is not provided then user won't be able to provide any sign.<br>
 
 # Example for getting "ABC" as text
 
