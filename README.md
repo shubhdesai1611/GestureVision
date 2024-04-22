@@ -5,7 +5,7 @@ There will be requirement of installing dependencies based on the modules used i
 <h1> How to run the project</h1>
 To recreate the 2D CNN model that has been used for this tool:<br>
 1. Clone this repository<br>
-2. Unzip the asl_dataset.zip file. If file is corrupted then download it from <a href="https://drive.google.com/drive/folders/1ZygkK0krGtb_LfNuq5JiNbV7RqfKB_Pb?usp=sharing"> Link to DataSet</a><br>
+2. Unzip the asl_dataset.zip file. If file is corrupted then download it from <a href="https://drive.google.com/drive/folders/197Kr13x4zN8IaPCYOO1XoAdKuJExrHX5?usp=sharing"> Link to DataSet</a><br>
 3. Get into the directory of ./asl_classification/2d_cnn. <br>
 4. Run the create_dataset.py file. Ensure that the direrctory is correct. If this is executed successfully, a pickle file of the data will be created. <br>
 5. Next step is Training the 2D CNN. Run the train_2D_cnn.py file. This will train and save the model to the cnn_model_2d.h5. <br>
